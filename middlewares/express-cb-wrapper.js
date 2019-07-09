@@ -8,7 +8,7 @@ module.exports = {
 			ctx.req = req
 			ctx.res = res
 			ctx.requestid = req.headers['x-requestid']
-			console.log('url=%s, requestid=%s start', req.url, ctx.requestid)
+			console.log('url=%s, requestid=%s start', req.originalUrl, ctx.requestid)
 			next()
 		}
 	},
