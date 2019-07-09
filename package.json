@@ -1,0 +1,27 @@
+{
+  "name": "async-express",
+  "version": "1.0.0",
+  "description": "try to setup a better practice in express server to use async/await features.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberty65/AsyncExpress.git"
+  },
+  "keywords": [
+    "await",
+    "async"
+  ],
+  "author": "robertpython@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roberty65/AsyncExpress/issues"
+  },
+  "homepage": "https://github.com/roberty65/AsyncExpress#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1"
+  }
+}
